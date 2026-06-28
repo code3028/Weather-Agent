@@ -1,0 +1,5 @@
+pip install requests openai-agents
+export OPENAI_API_KEY="your_api_key"
+set OPENAI_API_KEY=your_api_key
+python3.9 
+internet connection
