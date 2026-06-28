@@ -1,0 +1,34 @@
+User
+   │
+   ▼
+Weather Query
+   │
+   ▼
+OpenAI Weather Agent
+   │
+   ├──────────────► Time Tool (datetime)
+   │                     │
+   │                     ▼
+   │              Current System Time
+   │
+   ▼
+Weather Tool
+   │
+   ▼
+Open-Meteo Geocoding API
+(City → Latitude & Longitude)
+   │
+   ▼
+Open-Meteo Weather API
+(Current Weather)
+   │
+   ▼
+Weather Data
+   │
+   ├──────────────► Combine Weather + Time
+   │
+   ▼
+Natural Language Response
+   │
+   ▼
+User
